@@ -18,6 +18,7 @@ Shows each player's ping next to their name in the tab list, color-coded by qual
 ## Build
 
 ```bash
+rustup target add wasm32-wasip2
 cargo build --release  --target wasm32-wasip2
 ```
 
